@@ -1,0 +1,12 @@
+{
+    "station": "Pasir Ris",
+    "results": [
+        {
+            "ssid": "NTUWL",
+            "bssid": "18:64:72:fb:e5:61",
+            "capabilities": "[ESS]",
+            "frequency": "2462",
+            "level": "-43"
+        }
+    ]
+}

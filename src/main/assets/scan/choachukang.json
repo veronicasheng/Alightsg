@@ -1,0 +1,12 @@
+{
+    "station": "Choa Chu Kang",
+    "results": [
+        {
+            "ssid": "Wireless@SG",
+            "bssid": "84:18:3a:0c:be:38",
+            "capabilities": "[ESS]",
+            "frequency": "2432",
+            "level": "-64"
+        }
+    ]
+}

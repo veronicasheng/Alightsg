@@ -1,0 +1,264 @@
+{
+    "station": "Dhoby Ghaut",
+    "results": [
+        {
+            "ssid": "Singtel WIFI",
+            "bssid": "6c:aa:b3:ed:3f:ec",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "5300",
+            "level": "-89"
+        },
+        {
+            "ssid": "Wireless@SGx",
+            "bssid": "6c:aa:b3:ad:3f:ec",
+            "capabilities": "[WPA-EAP-CCMP+TKIP][WPA2-EAP-CCMP+TKIP][ESS]",
+            "frequency": "5300",
+            "level": "-87"
+        },
+        {
+            "ssid": "SingTel WIFI",
+            "bssid": "6c:aa:b3:6d:3f:ec",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "5300",
+            "level": "-88"
+        },
+        {
+            "ssid": "Wireless@SG",
+            "bssid": "6c:aa:b3:2d:3f:ec",
+            "capabilities": "[ESS]",
+            "frequency": "5300",
+            "level": "-89"
+        },
+        {
+            "ssid": "Singtel WIFI",
+            "bssid": "6c:aa:b3:ad:4e:68",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "2417",
+            "level": "-89"
+        },
+        {
+            "ssid": "SingTel WIFI",
+            "bssid": "6c:aa:b3:2c:73:7c",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "5200",
+            "level": "-62"
+        },
+        {
+            "ssid": "Wireless@SGx",
+            "bssid": "6c:aa:b3:ed:49:dc",
+            "capabilities": "[WPA-EAP-CCMP+TKIP][WPA2-EAP-CCMP+TKIP][ESS]",
+            "frequency": "5280",
+            "level": "-64"
+        },
+        {
+            "ssid": "SingTel WIFI",
+            "bssid": "6c:aa:b3:6d:49:dc",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "5280",
+            "level": "-64"
+        },
+        {
+            "ssid": "SingTel WIFI",
+            "bssid": "6c:aa:b3:2c:73:78",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "2417",
+            "level": "-59"
+        },
+        {
+            "ssid": "Wireless@SGx",
+            "bssid": "6c:aa:b3:ed:4e:7c",
+            "capabilities": "[WPA-EAP-CCMP+TKIP][WPA2-EAP-CCMP+TKIP][ESS]",
+            "frequency": "5260",
+            "level": "-60"
+        },
+        {
+            "ssid": "Wireless@SG",
+            "bssid": "6c:aa:b3:2d:49:dc",
+            "capabilities": "[ESS]",
+            "frequency": "5280",
+            "level": "-64"
+        },
+        {
+            "ssid": "Singtel WIFI",
+            "bssid": "6c:aa:b3:ad:49:dc",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "5280",
+            "level": "-64"
+        },
+        {
+            "ssid": "SingTel WIFI",
+            "bssid": "6c:aa:b3:6d:4e:7c",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "5260",
+            "level": "-60"
+        },
+        {
+            "ssid": "Singtel WIFI",
+            "bssid": "6c:aa:b3:ad:4e:7c",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "5260",
+            "level": "-61"
+        },
+        {
+            "ssid": "Wireless@SG",
+            "bssid": "6c:aa:b3:2d:4e:7c",
+            "capabilities": "[ESS]",
+            "frequency": "5260",
+            "level": "-60"
+        },
+        {
+            "ssid": "SingTel WIFI",
+            "bssid": "6c:aa:b3:6d:49:d8",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "2437",
+            "level": "-65"
+        },
+        {
+            "ssid": "Singtel WIFI",
+            "bssid": "6c:aa:b3:ad:49:d8",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "2437",
+            "level": "-63"
+        },
+        {
+            "ssid": "Wireless@SGx",
+            "bssid": "6c:aa:b3:ed:49:d8",
+            "capabilities": "[WPA-EAP-CCMP+TKIP][WPA2-EAP-CCMP+TKIP][ESS]",
+            "frequency": "2437",
+            "level": "-62"
+        },
+        {
+            "ssid": "Wireless@SG",
+            "bssid": "6c:aa:b3:2d:49:d8",
+            "capabilities": "[ESS]",
+            "frequency": "2437",
+            "level": "-64"
+        },
+        {
+            "ssid": "Wireless@SG",
+            "bssid": "6c:aa:b3:2d:4e:78",
+            "capabilities": "[ESS]",
+            "frequency": "2412",
+            "level": "-63"
+        },
+        {
+            "ssid": "SingTel WIFI",
+            "bssid": "6c:aa:b3:2c:71:cc",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "5180",
+            "level": "-64"
+        },
+        {
+            "ssid": "SingTel WIFI",
+            "bssid": "6c:aa:b3:6d:4e:78",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "2412",
+            "level": "-65"
+        },
+        {
+            "ssid": "Wireless@SGx",
+            "bssid": "6c:aa:b3:ed:4e:78",
+            "capabilities": "[WPA-EAP-CCMP+TKIP][WPA2-EAP-CCMP+TKIP][ESS]",
+            "frequency": "2412",
+            "level": "-64"
+        },
+        {
+            "ssid": "Singtel WIFI",
+            "bssid": "6c:aa:b3:ad:4e:78",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "2412",
+            "level": "-64"
+        },
+        {
+            "ssid": "SingTel WIFI",
+            "bssid": "6c:aa:b3:2c:71:c8",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "2432",
+            "level": "-64"
+        },
+        {
+            "ssid": "Singtel WIFI",
+            "bssid": "6c:aa:b3:ac:ae:dc",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "5320",
+            "level": "-89"
+        },
+        {
+            "ssid": "SingTel WIFI",
+            "bssid": "6c:aa:b3:6c:ae:dc",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "5320",
+            "level": "-89"
+        },
+        {
+            "ssid": "Wireless@SG",
+            "bssid": "6c:aa:b3:2c:ae:dc",
+            "capabilities": "[ESS]",
+            "frequency": "5320",
+            "level": "-89"
+        },
+        {
+            "ssid": "Wireless@SGx",
+            "bssid": "6c:aa:b3:ec:ae:dc",
+            "capabilities": "[WPA-EAP-CCMP+TKIP][WPA2-EAP-CCMP+TKIP][ESS]",
+            "frequency": "5320",
+            "level": "-88"
+        },
+        {
+            "ssid": "SingTel WIFI",
+            "bssid": "6c:aa:b3:6c:c7:c8",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "2422",
+            "level": "-73"
+        },
+        {
+            "ssid": "Wireless@SGx",
+            "bssid": "6c:aa:b3:ec:ae:d8",
+            "capabilities": "[WPA-EAP-CCMP+TKIP][WPA2-EAP-CCMP+TKIP][ESS]",
+            "frequency": "2432",
+            "level": "-80"
+        },
+        {
+            "ssid": "Wireless@SGx",
+            "bssid": "6c:aa:b3:ac:c7:c8",
+            "capabilities": "[WPA-EAP-CCMP+TKIP][WPA2-EAP-CCMP+TKIP][ESS]",
+            "frequency": "2422",
+            "level": "-82"
+        },
+        {
+            "ssid": "Singtel WIFI",
+            "bssid": "6c:aa:b3:ac:ae:d8",
+            "capabilities": "[WPA2-EAP-CCMP][ESS]",
+            "frequency": "2432",
+            "level": "-85"
+        },
+        {
+            "ssid": "Wireless@SG",
+            "bssid": "6c:aa:b3:2c:c7:c8",
+            "capabilities": "[ESS]",
+            "frequency": "2422",
+            "level": "-82"
+        },
+        {
+            "ssid": "Wireless@SG",
+            "bssid": "6c:aa:b3:2c:ae:d8",
+            "capabilities": "[ESS]",
+            "frequency": "2432",
+            "level": "-81"
+        },
+        {
+            "ssid": "Wireless@SGx",
+            "bssid": "6c:aa:b3:ed:4e:68",
+            "capabilities": "[WPA-EAP-CCMP+TKIP][WPA2-EAP-CCMP+TKIP][ESS]",
+            "frequency": "2417",
+            "level": "-89"
+        },
+        {
+            "ssid": "Wireless@SG",
+            "bssid": "6c:aa:b3:2c:c7:cc",
+            "capabilities": "[ESS]",
+            "frequency": "5240",
+            "level": "-92"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "station": "Yew Tee",
+    "results": [
+        {
+            "ssid": "Yong-ASUS-5GHz",
+            "bssid": "00:26:75:98:4c:2a",
+            "capabilities": "[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]",
+            "frequency": "5200",
+            "level": "-50"
+        }
+    ]
+}

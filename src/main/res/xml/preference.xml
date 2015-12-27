@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/tracking_options">
+
+        <ListPreference
+            android:defaultValue="700"
+            android:entries="@array/radius_choices"
+            android:entryValues="@array/radius_values"
+            android:key="radius_preference"
+            android:summary="@string/radius_preference_summary"
+            android:title="@string/radius_preference" />
+
+
+        <CheckBoxPreference
+            android:key="wakelock_preference"
+            android:defaultValue="true"
+            android:summary="@string/wakelock_preference_summary"
+            android:title="@string/wakelock_preference" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/bus_database">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:enabled="true"
+            android:key="database_preference"
+            android:summary="@string/database_preference_summary"
+            android:title="@string/database_preference" />
+
+        <Preference
+            android:key="download_database"
+            android:summary="@string/download_database_summary"
+            android:title="@string/download_database" />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/alarm_settings">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:enabled="true"
+            android:key="vibrate_preference"
+            android:summary="@string/vibrate_preference_summary"
+            android:title="@string/vibrate_preference" />
+
+        <CheckBoxPreference
+            android:key="sound_preference"
+            android:summary="@string/sound_preference_summary"
+            android:title="@string/sound_preference" />
+
+
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:key="ringtone_preference"
+            android:showSilent="false"
+            android:summary="@string/ringtone_preference_summary"
+            android:title="@string/ringtone_preference" />
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>         
+
+  

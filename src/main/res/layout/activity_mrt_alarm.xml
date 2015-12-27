@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!-- List view -->
+    <TextView
+        android:id="@+id/mrtname_source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="SOURCE"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/textview_source"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mrtname_source"
+        android:layout_centerHorizontal="true"
+        android:completionThreshold="1"
+        android:dropDownHeight="wrap_content"
+        android:ems="10"
+        android:hint="Type it here"
+        android:imeOptions="actionDone"
+        android:inputType="none"
+        android:lines="1"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/selectstnbtn_source"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_source"
+        android:layout_centerHorizontal="true"
+        android:text="Select Station Manually"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/mrtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selectstnbtn_source"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="DESTINATION"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/textview"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mrtname"
+        android:layout_centerHorizontal="true"
+        android:completionThreshold="1"
+        android:dropDownHeight="wrap_content"
+        android:ems="10"
+        android:hint="Type it here"
+        android:imeOptions="actionDone"
+        android:inputType="none"
+        android:lines="1"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/selectstnbtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textview"
+        android:layout_alignStart="@+id/textview"
+        android:layout_below="@+id/textview"
+        android:text="Select Station Manually"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/stoptrackingbtn"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/selectstnbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="START TRACKING"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:layout_alignBottom="@+id/textview"
+        android:layout_toRightOf="@+id/textview"
+        android:layout_toEndOf="@+id/textview"
+        android:src="@drawable/ic_action_search" />
+
+</RelativeLayout>

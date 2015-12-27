@@ -1,0 +1,12 @@
+{
+    "station": "Tampines",
+    "results": [
+        {
+            "ssid": "NTUWL",
+            "bssid": "18:64:72:fb:f0:b1",
+            "capabilities": "[ESS]",
+            "frequency": "5320",
+            "level": "-51"
+        }
+    ]
+}

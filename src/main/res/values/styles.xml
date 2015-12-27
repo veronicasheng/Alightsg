@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <item name="android:configChanges">orientation</item>
+        <item name="android:screenOrientation">portrait</item>
+    </style>
+
+</resources>
