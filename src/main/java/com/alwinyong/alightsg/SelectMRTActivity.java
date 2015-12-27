@@ -1,6 +1,5 @@
 package com.alwinyong.alightsg;
 
-//testing
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -22,7 +21,6 @@ import java.util.ArrayList;
 
 public class SelectMRTActivity extends FragmentActivity {
 
-    private boolean itesting = true;
     private int selected = -1;
 
     private Spinner select_spinner;
