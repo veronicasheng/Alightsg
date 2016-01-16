@@ -38,6 +38,8 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.text.DecimalFormat;
 
+//testing github
+
 public class TrackingBusActivity extends FragmentActivity implements LocationListener, LocationSource {
     private static final LatLng SINGAPORE_LAT_LNG = new LatLng(1.290270, 103.851959);
     private static final String TONE = "tone";
