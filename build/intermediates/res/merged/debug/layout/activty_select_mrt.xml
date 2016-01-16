@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_select_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Select MRT / LRT Line" />
+
+    <Spinner
+        android:id="@+id/spinner_select_line"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/text_select_line"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/text_select_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_select_line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Select Boarding Station" />
+
+    <Spinner
+        android:id="@+id/spinner_select_start"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/spinner_select_line"
+        android:layout_alignStart="@+id/spinner_select_line"
+        android:layout_below="@+id/text_select_start" />
+
+    <TextView
+        android:id="@+id/text_select_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_select_start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Select Alighting Station" />
+
+    <Spinner
+        android:id="@+id/spinner_select_end"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/spinner_select_start"
+        android:layout_alignStart="@+id/spinner_select_start"
+        android:layout_below="@+id/text_select_end" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/spinner_select_end"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="50dp"
+        android:text="START TRACKING"
+        android:textSize="15dp" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/btn_submit"
+        android:clickable="false"
+        android:enabled="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchbutton1"
+        android:src="@drawable/ic_action_search"
+        android:paddingTop="@dimen/padding_large"
+        android:layout_above="@+id/btn_submit"
+        android:layout_toRightOf="@+id/spinner_select_end"
+        android:layout_toEndOf="@+id/spinner_select_end" />
+
+</RelativeLayout>
+
+</ScrollView><!-- From: file:/C:/Users/Administrator/Source%20Code/Alightsg/app/src/main/res/layout/activty_select_mrt.xml -->

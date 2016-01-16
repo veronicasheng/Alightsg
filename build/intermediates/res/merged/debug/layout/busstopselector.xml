@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="CHOOSE BUS NUMBER"
+        android:textSize="16dp" />
+
+    <com.alwinyong.alightsg.SpinnerTrigger
+        android:id="@+id/buslistspinner"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+
+    <Button
+        android:id="@+id/gobtn"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buslistspinner"
+        android:layout_alignRight="@+id/textView1"
+        android:text="Go" />
+
+    <TextView
+        android:id="@+id/route1text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/route1selectbtn"
+        android:layout_below="@+id/cdbstext"
+        android:layout_marginTop="23dp"
+        android:text="Route 1" />
+
+    <TextView
+        android:id="@+id/cdbstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buslistspinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="CHOOSE DESTINATION BUS STOP"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/route1selectbtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/route2selectbtn"
+        android:layout_below="@+id/busstopspinner1"
+        android:text="SELECT THIS BUS STOP AND RETURN"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/route2text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/r2startend"
+        android:layout_alignBottom="@+id/r2startend"
+        android:layout_alignLeft="@+id/route1selectbtn"
+        android:text="Route 2" />
+
+    <Button
+        android:id="@+id/route2selectbtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/busstopspinner2"
+        android:layout_centerHorizontal="true"
+        android:text="SELECT THIS BUS STOP AND RETURN"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/r1startend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/busstopspinner1"
+        android:layout_alignLeft="@+id/buslistspinner"
+        android:layout_marginLeft="13dp"
+        android:text="Route 1" />
+
+    <com.alwinyong.alightsg.SpinnerTrigger
+        android:id="@+id/busstopspinner1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/r1startend"
+        android:layout_below="@+id/route1text"
+        tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+
+    <TextView
+        android:id="@+id/r2startend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/busstopspinner1"
+        android:layout_below="@+id/route1selectbtn"
+        android:layout_marginTop="36dp"
+        android:text="Route 2" />
+
+    <com.alwinyong.alightsg.SpinnerTrigger
+        android:id="@+id/busstopspinner2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/r2startend"
+        android:layout_below="@+id/r2startend"
+        tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Administrator/Source%20Code/Alightsg/app/src/main/res/layout/busstopselector.xml -->

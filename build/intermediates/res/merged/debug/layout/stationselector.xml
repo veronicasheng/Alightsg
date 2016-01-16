@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/reference"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/stoplatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="CHOOSE MRT LINE"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/returnbtn"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="SELECT STATION AND RETURN"
+        android:textSize="15dp" />
+
+    <Spinner
+        android:id="@+id/mrtlinespinner"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/stationnamespinner"
+        android:layout_below="@+id/stoplatitude"
+        app:listitem="@android:layout/simple_spinner_dropdown_item" />
+
+    <TextView
+        android:id="@+id/mrtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mrtlinespinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="CHOOSE MRT STATION"
+        android:textSize="15dp" />
+
+    <Spinner
+        android:id="@+id/stationnamespinner"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/mrtname"
+        android:layout_centerHorizontal="true"
+        app:listitem="@android:layout/simple_spinner_dropdown_item" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Administrator/Source%20Code/Alightsg/app/src/main/res/layout/stationselector.xml -->

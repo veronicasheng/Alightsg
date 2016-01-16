@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/uhvselectedtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mrtname"
+        android:layout_below="@+id/distanceremaining"
+        android:layout_marginTop="33dp"
+        android:text="GPS Accuracy"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/mrtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView5"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="36dp"
+        android:text="Approx. Distance"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/destinationstation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignLeft="@+id/distanceremaining"
+        android:text="Destination"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mrtname"
+        android:layout_alignParentTop="true"
+        android:text="Destination"
+        android:textSize="15dp" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/busstarttrackingbtn"
+        android:clickable="false"
+        android:enabled="true" />
+
+    <Button
+        android:id="@+id/busstarttrackingbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/uhvselectedtext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="STOP TRACKING"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/distanceremaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mrtname"
+        android:layout_alignBottom="@+id/mrtname"
+        android:layout_alignLeft="@+id/gpsaccuracytext"
+        android:text="Waiting for Location"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/gpsaccuracytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/uhvselectedtext"
+        android:layout_alignBottom="@+id/uhvselectedtext"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/mrtname"
+        android:text="Waiting for Location"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="15dp" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Administrator/Source%20Code/Alightsg/app/src/main/res/layout/activity_tracking_bus.xml -->

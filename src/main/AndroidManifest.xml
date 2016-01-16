@@ -7,14 +7,15 @@
 
     <application android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
 
-        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyA8d3IpKSL6zoE8ULUP6O1q8NN-BnX9VFc" />
+        <!--<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyA8d3IpKSL6zoE8ULUP6O1q8NN-BnX9VFc" />-->
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyA8d3IpKSL6zoE8ULUP6O1q8NN-BnX9VFc" />
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
 
         <!--  Add Google Map Library -->
         <uses-library android:required="true" android:name="com.google.android.maps" />
 
         <!-- Extra Activities Added -->
-        <activity android:name=".SelectMRTActivity" android:label="MRT / LRT Alarm" android:screenOrientation="portrait">
+        <activity android:name="com.alwinyong.alightsg.SelectMRTActivity" android:label="MRT / LRT Alarm" android:screenOrientation="portrait">
         </activity>
         <activity android:name="com.alwinyong.alightsg.TrackingMRTActivity" android:label="MRT / LRT Tracking" android:launchMode="singleTop" android:screenOrientation="portrait">
         </activity>

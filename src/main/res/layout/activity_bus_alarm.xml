@@ -45,6 +45,18 @@
         android:enabled="true" />
 
     <AutoCompleteTextView
+        android:id="@+id/searchblank2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selectstopmanuallybtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:completionThreshold="1"
+        android:singleLine="true"
+        android:ems="10"
+        android:hint="Search address here" />
+
+    <AutoCompleteTextView
         android:id="@+id/busstoptextview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -73,8 +85,8 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton"
-        android:layout_alignBottom="@+id/busstoptextview"
+        android:id="@+id/searchbutton2"
+        android:layout_below="@+id/busstoptextview"
         android:layout_toRightOf="@+id/busstoptextview"
         android:layout_toEndOf="@+id/busstoptextview"
         android:src="@drawable/ic_action_search" />

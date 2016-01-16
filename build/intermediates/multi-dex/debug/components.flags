@@ -1,0 +1,86 @@
+-injars 'C:\Users\Administrator\Source Code\Alightsg\app\build\intermediates\multi-dex\debug\allclasses.jar'
+-outjars 'C:\Users\Administrator\Source Code\Alightsg\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'D:\FYP\SDK\build-tools\21.1.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontpreverify
+-dontwarn
+-printconfiguration 'C:\Users\Administrator\Source Code\Alightsg\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class null {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.alwinyong.alightsg.SelectMRTActivity {
+    <init>();
+}
+
+-keep class com.alwinyong.alightsg.TrackingMRTActivity {
+    <init>();
+}
+
+-keep class com.alwinyong.alightsg.MRTStationSelectorSource {
+    <init>();
+}
+
+-keep class com.alwinyong.alightsg.SelectMRTStationActivity {
+    <init>();
+}
+
+-keep class com.alwinyong.alightsg.TrackingBusActivity {
+    <init>();
+}
+
+-keep class com.alwinyong.alightsg.SettingsActivity {
+    <init>();
+}
+
+-keep class com.alwinyong.alightsg.AlarmPlayerActivity {
+    <init>();
+}
+
+-keep class com.alwinyong.alightsg.BusAlarmActivity {
+    <init>();
+}
+
+-keep class com.alwinyong.alightsg.BusStopSelector {
+    <init>();
+}
+
+-keep class com.alwinyong.alightsg.AboutActivity {
+    <init>();
+}
+
+-keep class com.alwinyong.alightsg.LandingActivity {
+    <init>();
+}
+
+-keep class com.alwinyong.alightsg.NotificationReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.AdActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.wallet.EnableWalletOptimizationReceiver {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

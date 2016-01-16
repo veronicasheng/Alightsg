@@ -27,7 +27,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.location.LocationClient;
+//import com.google.android.gms.location.LocationClient;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.LocationSource;
@@ -49,7 +49,7 @@ public class TrackingBusActivity extends FragmentActivity implements LocationLis
     GPSTracker gps;
     NotificationManager notifManager;
     Handler handler = new Handler();
-    LocationClient mLocationClient;
+//    LocationClient mLocationClient;
     MarkerOptions markerOpts;
     //HANDLER THREAD        z
     Handler mUpdater = new Handler();

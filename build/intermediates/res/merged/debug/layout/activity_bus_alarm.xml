@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!-- Show on Map button -->
+
+
+    <!-- List view -->
+
+    <AutoCompleteTextView
+        android:id="@+id/numbertextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/busstoptextview"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
+        android:completionThreshold="1"
+        android:ems="10"
+        android:inputType="number"
+        android:singleLine="true"
+        android:hint="Enter bus stop number" />
+
+    <Button
+        android:id="@+id/busstarttrackingbtn"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="START TRACKING"
+        android:textSize="15dp" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/selectstopmanuallybtn"
+        android:clickable="false"
+        android:enabled="true" />
+
+    <AutoCompleteTextView
+        android:id="@+id/searchblank2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selectstopmanuallybtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:completionThreshold="1"
+        android:singleLine="true"
+        android:ems="10"
+        android:hint="Search address here" />
+
+    <AutoCompleteTextView
+        android:id="@+id/busstoptextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numbertextview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:completionThreshold="1"
+        android:singleLine="true"
+        android:ems="10"
+        android:hint="Enter bus stop name" />
+
+    <Button
+        android:id="@+id/selectstopmanuallybtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/busstoptextview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Select Bus Stop Manually"
+        android:textSize="15dp" />
+
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchbutton2"
+        android:layout_below="@+id/busstoptextview"
+        android:layout_toRightOf="@+id/busstoptextview"
+        android:layout_toEndOf="@+id/busstoptextview"
+        android:src="@drawable/ic_action_search" />
+</RelativeLayout>
+
+    </ScrollView><!-- From: file:/C:/Users/Administrator/Source%20Code/Alightsg/app/src/main/res/layout/activity_bus_alarm.xml -->
